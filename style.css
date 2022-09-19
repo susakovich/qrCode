@@ -44,7 +44,7 @@ body {
 .content-wrapper__text {
   padding: 1rem;
   margin-top: -1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   font-size: 15px;
   font-weight: 400;
   color: hsl(220, 15%, 55%);
@@ -52,16 +52,12 @@ body {
 
 @media only screen and (max-width: 540px) {
   .container {
-    width: 375px;
-    height: 520px;
+    width: 20rem;
   }
   .content-wrapper {
-    width: 24rem;
-  }
-  .content-wrapper__image {
     width: 20rem;
   }
   .content-wrapper__heading {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
   }
 }
